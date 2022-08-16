@@ -1,4 +1,4 @@
-## Clone in VS Code for Safari
+## Clone in Visual Studio Code for Safari
 
 A browser extension to clone any GitHub or GitLab repository right in Visual Studio Code with just one click.
 
