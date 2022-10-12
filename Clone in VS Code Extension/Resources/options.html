@@ -6,6 +6,15 @@
       body {
         font-family: Arial, sans-serif;
       }
+      div {
+        margin-top: 5px;
+      }
+      p {
+        margin-top: 3px;
+      }
+      h1 {
+        margin-bottom: 5px;
+      }
     </style>
   </head>
   <body>
@@ -15,10 +24,20 @@
       <option value="HTTPS">HTTPS</option>
       <option value="SSH">SSH</option>
     </select>
-    <br />
+</div>
+<div>
+  Open in:
+  <select id="application">
+    <option value="VS Code">VS Code</option>
+    <option value="VS Code Insiders">VS Code Insiders</option>
+    <option value="VSCodium">VSCodium</option>
+    <option value="VSCodium Insiders">VSCodium Insiders</option>
+  </select>
+</div>
+<div>
     <button id="save">Save</button>
-    <br />
-    <div id="status"></div>
+</div>
+<p id="status"></p>
 
     <script src="options.js"></script>
   </body>
