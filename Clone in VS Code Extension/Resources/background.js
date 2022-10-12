@@ -21,8 +21,8 @@ chrome.action.onClicked.addListener((tab) => {
           if (items.protocol == "HTTPS") {
             chrome.tabs.create({
               url:
-              openApp +
-              "://vscode.git/clone?url=https://" +
+                openApp +
+                "://vscode.git/clone?url=https://" +
                 url.hostname +
                 "/" +
                 path[1] +
@@ -33,8 +33,8 @@ chrome.action.onClicked.addListener((tab) => {
           } else if (items.protocol == "SSH") {
             chrome.tabs.create({
               url:
-              openApp +
-              "://vscode.git/clone?url=git@" +
+                openApp +
+                "://vscode.git/clone?url=git@" +
                 url.hostname +
                 ":" +
                 path[1] +
