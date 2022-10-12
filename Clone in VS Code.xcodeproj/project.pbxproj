@@ -15,7 +15,7 @@
 		9C992C8528AC17940086F31E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C992C8428AC17940086F31E /* ViewController.swift */; };
 		9C992C8828AC17940086F31E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C992C8628AC17940086F31E /* Main.storyboard */; };
 		9C992C8A28AC17940086F31E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C992C8928AC17940086F31E /* Assets.xcassets */; };
-		9C992C9328AC17950086F31E /* Clone in VS Code Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9C992C9228AC17950086F31E /* Clone in VS Code Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C992C9328AC17950086F31E /* Clone in VS Code Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C992C9228AC17950086F31E /* Clone in VS Code Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9C992C9828AC17950086F31E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C992C9728AC17950086F31E /* SafariWebExtensionHandler.swift */; };
 		9C992CAB28AC17950086F31E /* 48.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C992CA528AC17950086F31E /* 48.png */; };
 		9C992CAD28AC17950086F31E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C992CA728AC17950086F31E /* background.js */; };
@@ -37,15 +37,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9C992CA028AC17950086F31E /* Embed App Extensions */ = {
+		9C992CA028AC17950086F31E /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9C992C9328AC17950086F31E /* Clone in VS Code Extension.appex in Embed App Extensions */,
+				9C992C9328AC17950086F31E /* Clone in VS Code Extension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -174,7 +174,7 @@
 				9C992C7128AC17940086F31E /* Sources */,
 				9C992C7228AC17940086F31E /* Frameworks */,
 				9C992C7328AC17940086F31E /* Resources */,
-				9C992CA028AC17950086F31E /* Embed App Extensions */,
+				9C992CA028AC17950086F31E /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -211,7 +211,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1340;
+				LastUpgradeCheck = 1400;
 				TargetAttributes = {
 					9C992C7428AC17940086F31E = {
 						CreatedOnToolsVersion = 13.4.1;
@@ -351,6 +351,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -411,6 +412,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -435,8 +437,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code Extension/Clone_in_VS_Code_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -466,8 +470,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code Extension/Clone_in_VS_Code_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -500,9 +506,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code/Clone in VS Code.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -538,9 +546,11 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code/Clone in VS Code.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 4;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
