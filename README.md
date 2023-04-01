@@ -7,3 +7,5 @@ This is the Safari port of the [Clone in VS Code](https://github.com/infinitepow
 [![image](https://github.com/infinitepower18/CloneInVSCode/raw/main/badges/MacAppStore.svg)](https://apps.apple.com/us/app/clone-in-vs-code/id1640113540)
 
 [Privacy Policy](https://ahnafmahmud.me/apps/CloneInVSCode/PrivacyPolicy.html)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F1K06VY)
