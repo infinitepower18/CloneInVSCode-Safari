@@ -1,3 +1,5 @@
+[![Xcode Build](https://github.com/infinitepower18/CloneInVSCode-Safari/actions/workflows/xcode.yml/badge.svg)](https://github.com/infinitepower18/CloneInVSCode-Safari/actions/workflows/xcode.yml)
+![GitHub](https://img.shields.io/github/license/infinitepower18/CloneInVSCode)
 ## Clone in Visual Studio Code for Safari
 
 A browser extension to clone any GitHub, GitLab or Bitbucket repository in Visual Studio Code with just one click.
