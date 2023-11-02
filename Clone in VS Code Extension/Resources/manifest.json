@@ -8,7 +8,7 @@
     "open_in_tab": false
   },
   "permissions": ["storage"],
-  "icons": { "16": "16.png", "48": "48.png", "128": "128.png" },
+  "icons": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" },
   "action": {},
   "author": "Ahnaf Mahmud",
   "homepage_url": "https://github.com/infinitepower18/CloneInVSCode-Safari",
