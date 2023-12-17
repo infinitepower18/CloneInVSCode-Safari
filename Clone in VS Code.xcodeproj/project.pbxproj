@@ -21,7 +21,7 @@
 		9C8222462AF459B800D36337 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222412AF459B800D36337 /* icons */; };
 		9C8222472AF459B800D36337 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222422AF459B800D36337 /* manifest.json */; };
 		9C8222482AF459B800D36337 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222432AF459B800D36337 /* options.html */; };
-		9CD79AB82B2E293400DCFF34 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CD79AB72B2E293400DCFF34 /* Icon.png */; };
+		9C8ABB252B2FAF90003D5BBA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8ABB242B2FAF90003D5BBA /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,7 +69,7 @@
 		9C8222412AF459B800D36337 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
 		9C8222422AF459B800D36337 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
 		9C8222432AF459B800D36337 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
-		9CD79AB72B2E293400DCFF34 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9C8ABB242B2FAF90003D5BBA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				9C8222152AF459B600D36337 /* Main.html */,
-				9CD79AB72B2E293400DCFF34 /* Icon.png */,
+				9C8ABB242B2FAF90003D5BBA /* Icon.png */,
 				9C82221A2AF459B600D36337 /* Style.css */,
 				9C82221C2AF459B600D36337 /* Script.js */,
 			);
@@ -239,7 +239,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CD79AB82B2E293400DCFF34 /* Icon.png in Resources */,
+				9C8ABB252B2FAF90003D5BBA /* Icon.png in Resources */,
 				9C8222222AF459B600D36337 /* Main.storyboard in Resources */,
 				9C82221D2AF459B600D36337 /* Script.js in Resources */,
 				9C8222172AF459B600D36337 /* Main.html in Resources */,
@@ -499,7 +499,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code/Clone in VS Code.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -514,7 +514,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.3.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -537,7 +537,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code/Clone in VS Code.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 11;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -552,7 +552,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.3.0;
+				MARKETING_VERSION = 1.3.1;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
