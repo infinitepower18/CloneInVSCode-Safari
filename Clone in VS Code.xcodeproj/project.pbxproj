@@ -7,41 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9C8222132AF459B600D36337 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8222122AF459B600D36337 /* AppDelegate.swift */; };
-		9C8222172AF459B600D36337 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222152AF459B600D36337 /* Main.html */; };
-		9C82221B2AF459B600D36337 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C82221A2AF459B600D36337 /* Style.css */; };
-		9C82221D2AF459B600D36337 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C82221C2AF459B600D36337 /* Script.js */; };
-		9C82221F2AF459B600D36337 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C82221E2AF459B600D36337 /* ViewController.swift */; };
-		9C8222222AF459B600D36337 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222202AF459B600D36337 /* Main.storyboard */; };
-		9C8222242AF459B700D36337 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222232AF459B700D36337 /* Assets.xcassets */; };
-		9C82222D2AF459B700D36337 /* Clone in VS Code Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C82222C2AF459B700D36337 /* Clone in VS Code Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		9C8222322AF459B700D36337 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8222312AF459B700D36337 /* SafariWebExtensionHandler.swift */; };
-		9C8222442AF459B800D36337 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C82223F2AF459B800D36337 /* background.js */; };
-		9C8222452AF459B800D36337 /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222402AF459B800D36337 /* options.js */; };
-		9C8222462AF459B800D36337 /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222412AF459B800D36337 /* icons */; };
-		9C8222472AF459B800D36337 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222422AF459B800D36337 /* manifest.json */; };
-		9C8222482AF459B800D36337 /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C8222432AF459B800D36337 /* options.html */; };
-		9C8ABB252B2FAF90003D5BBA /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8ABB242B2FAF90003D5BBA /* Icon.png */; };
+		9C8877B72BC5E73C003DF91A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8877B62BC5E73C003DF91A /* AppDelegate.swift */; };
+		9C8877BB2BC5E73C003DF91A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877BA2BC5E73C003DF91A /* Base */; };
+		9C8877BD2BC5E73C003DF91A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877BC2BC5E73C003DF91A /* Icon.png */; };
+		9C8877BF2BC5E73C003DF91A /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877BE2BC5E73C003DF91A /* Style.css */; };
+		9C8877C12BC5E73C003DF91A /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877C02BC5E73C003DF91A /* Script.js */; };
+		9C8877C32BC5E73C003DF91A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8877C22BC5E73C003DF91A /* ViewController.swift */; };
+		9C8877C62BC5E73C003DF91A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877C52BC5E73C003DF91A /* Base */; };
+		9C8877C82BC5E73D003DF91A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877C72BC5E73D003DF91A /* Assets.xcassets */; };
+		9C8877D02BC5E73D003DF91A /* Clone in VS Code Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C8877CF2BC5E73D003DF91A /* Clone in VS Code Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9C8877D52BC5E73D003DF91A /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8877D42BC5E73D003DF91A /* SafariWebExtensionHandler.swift */; };
+		9C8877D82BC5E73D003DF91A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877D72BC5E73D003DF91A /* _locales */; };
+		9C8877DC2BC5E73D003DF91A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877DB2BC5E73D003DF91A /* manifest.json */; };
+		9C8877F52BC5E900003DF91A /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877F22BC5E900003DF91A /* options.js */; };
+		9C8877F62BC5E900003DF91A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877F32BC5E900003DF91A /* background.js */; };
+		9C8877F72BC5E900003DF91A /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877F42BC5E900003DF91A /* options.html */; };
+		9C8877FF2BC5E9AF003DF91A /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 9C8877FE2BC5E9AF003DF91A /* icons */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9C82222E2AF459B700D36337 /* PBXContainerItemProxy */ = {
+		9C8877D12BC5E73D003DF91A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9C8222072AF459B600D36337 /* Project object */;
+			containerPortal = 9C8877AB2BC5E73C003DF91A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9C82222B2AF459B700D36337;
+			remoteGlobalIDString = 9C8877CE2BC5E73D003DF91A;
 			remoteInfo = "Clone in VS Code Extension";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		9C82223A2AF459B700D36337 /* Embed Foundation Extensions */ = {
+		9C8877EE2BC5E73D003DF91A /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9C82222D2AF459B700D36337 /* Clone in VS Code Extension.appex in Embed Foundation Extensions */,
+				9C8877D02BC5E73D003DF91A /* Clone in VS Code Extension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,38 +50,38 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		9C82220F2AF459B600D36337 /* Clone in VS Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clone in VS Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C8222122AF459B600D36337 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C8222162AF459B600D36337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
-		9C82221A2AF459B600D36337 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
-		9C82221C2AF459B600D36337 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
-		9C82221E2AF459B600D36337 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9C8222212AF459B600D36337 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C8222232AF459B700D36337 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9C8222252AF459B700D36337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C8222262AF459B700D36337 /* Clone_in_VS_Code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clone_in_VS_Code.entitlements; sourceTree = "<group>"; };
-		9C8222272AF459B700D36337 /* Clone in VS Code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Clone in VS Code.entitlements"; sourceTree = "<group>"; };
-		9C82222C2AF459B700D36337 /* Clone in VS Code Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Clone in VS Code Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9C8222312AF459B700D36337 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		9C8222332AF459B700D36337 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C8222342AF459B700D36337 /* Clone_in_VS_Code_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clone_in_VS_Code_Extension.entitlements; sourceTree = "<group>"; };
-		9C82223F2AF459B800D36337 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
-		9C8222402AF459B800D36337 /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = Resources/options.js; sourceTree = "<group>"; };
-		9C8222412AF459B800D36337 /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = Resources/icons; sourceTree = "<group>"; };
-		9C8222422AF459B800D36337 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
-		9C8222432AF459B800D36337 /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
-		9C8ABB242B2FAF90003D5BBA /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9C8877B32BC5E73C003DF91A /* Clone in VS Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clone in VS Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8877B62BC5E73C003DF91A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C8877BA2BC5E73C003DF91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		9C8877BC2BC5E73C003DF91A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		9C8877BE2BC5E73C003DF91A /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		9C8877C02BC5E73C003DF91A /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		9C8877C22BC5E73C003DF91A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C8877C52BC5E73C003DF91A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C8877C72BC5E73D003DF91A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C8877C92BC5E73D003DF91A /* Clone_in_VS_Code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clone_in_VS_Code.entitlements; sourceTree = "<group>"; };
+		9C8877CA2BC5E73D003DF91A /* Clone in VS Code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Clone in VS Code.entitlements"; sourceTree = "<group>"; };
+		9C8877CF2BC5E73D003DF91A /* Clone in VS Code Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Clone in VS Code Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C8877D42BC5E73D003DF91A /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		9C8877D72BC5E73D003DF91A /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		9C8877DB2BC5E73D003DF91A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		9C8877E72BC5E73D003DF91A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C8877E82BC5E73D003DF91A /* Clone_in_VS_Code_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Clone_in_VS_Code_Extension.entitlements; sourceTree = "<group>"; };
+		9C8877F22BC5E900003DF91A /* options.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = options.js; sourceTree = "<group>"; };
+		9C8877F32BC5E900003DF91A /* background.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		9C8877F42BC5E900003DF91A /* options.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
+		9C8877FE2BC5E9AF003DF91A /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = icons; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		9C82220C2AF459B600D36337 /* Frameworks */ = {
+		9C8877B02BC5E73C003DF91A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C8222292AF459B700D36337 /* Frameworks */ = {
+		9C8877CC2BC5E73D003DF91A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -90,103 +91,102 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9C8222062AF459B600D36337 = {
+		9C8877AA2BC5E73C003DF91A = {
 			isa = PBXGroup;
 			children = (
-				9C8222112AF459B600D36337 /* Clone in VS Code */,
-				9C8222302AF459B700D36337 /* Clone in VS Code Extension */,
-				9C8222102AF459B600D36337 /* Products */,
+				9C8877B52BC5E73C003DF91A /* Clone in VS Code */,
+				9C8877D32BC5E73D003DF91A /* Clone in VS Code Extension */,
+				9C8877B42BC5E73C003DF91A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		9C8222102AF459B600D36337 /* Products */ = {
+		9C8877B42BC5E73C003DF91A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9C82220F2AF459B600D36337 /* Clone in VS Code.app */,
-				9C82222C2AF459B700D36337 /* Clone in VS Code Extension.appex */,
+				9C8877B32BC5E73C003DF91A /* Clone in VS Code.app */,
+				9C8877CF2BC5E73D003DF91A /* Clone in VS Code Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C8222112AF459B600D36337 /* Clone in VS Code */ = {
+		9C8877B52BC5E73C003DF91A /* Clone in VS Code */ = {
 			isa = PBXGroup;
 			children = (
-				9C8222122AF459B600D36337 /* AppDelegate.swift */,
-				9C82221E2AF459B600D36337 /* ViewController.swift */,
-				9C8222202AF459B600D36337 /* Main.storyboard */,
-				9C8222232AF459B700D36337 /* Assets.xcassets */,
-				9C8222252AF459B700D36337 /* Info.plist */,
-				9C8222262AF459B700D36337 /* Clone_in_VS_Code.entitlements */,
-				9C8222272AF459B700D36337 /* Clone in VS Code.entitlements */,
-				9C8222142AF459B600D36337 /* Resources */,
+				9C8877B62BC5E73C003DF91A /* AppDelegate.swift */,
+				9C8877C22BC5E73C003DF91A /* ViewController.swift */,
+				9C8877C42BC5E73C003DF91A /* Main.storyboard */,
+				9C8877C72BC5E73D003DF91A /* Assets.xcassets */,
+				9C8877C92BC5E73D003DF91A /* Clone_in_VS_Code.entitlements */,
+				9C8877CA2BC5E73D003DF91A /* Clone in VS Code.entitlements */,
+				9C8877B82BC5E73C003DF91A /* Resources */,
 			);
 			path = "Clone in VS Code";
 			sourceTree = "<group>";
 		};
-		9C8222142AF459B600D36337 /* Resources */ = {
+		9C8877B82BC5E73C003DF91A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9C8222152AF459B600D36337 /* Main.html */,
-				9C8ABB242B2FAF90003D5BBA /* Icon.png */,
-				9C82221A2AF459B600D36337 /* Style.css */,
-				9C82221C2AF459B600D36337 /* Script.js */,
+				9C8877B92BC5E73C003DF91A /* Main.html */,
+				9C8877BC2BC5E73C003DF91A /* Icon.png */,
+				9C8877BE2BC5E73C003DF91A /* Style.css */,
+				9C8877C02BC5E73C003DF91A /* Script.js */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		9C8222302AF459B700D36337 /* Clone in VS Code Extension */ = {
+		9C8877D32BC5E73D003DF91A /* Clone in VS Code Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9C82223E2AF459B800D36337 /* Resources */,
-				9C8222312AF459B700D36337 /* SafariWebExtensionHandler.swift */,
-				9C8222332AF459B700D36337 /* Info.plist */,
-				9C8222342AF459B700D36337 /* Clone_in_VS_Code_Extension.entitlements */,
+				9C8877D42BC5E73D003DF91A /* SafariWebExtensionHandler.swift */,
+				9C8877E72BC5E73D003DF91A /* Info.plist */,
+				9C8877E82BC5E73D003DF91A /* Clone_in_VS_Code_Extension.entitlements */,
+				9C8877D62BC5E73D003DF91A /* Resources */,
 			);
 			path = "Clone in VS Code Extension";
 			sourceTree = "<group>";
 		};
-		9C82223E2AF459B800D36337 /* Resources */ = {
+		9C8877D62BC5E73D003DF91A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9C82223F2AF459B800D36337 /* background.js */,
-				9C8222402AF459B800D36337 /* options.js */,
-				9C8222412AF459B800D36337 /* icons */,
-				9C8222422AF459B800D36337 /* manifest.json */,
-				9C8222432AF459B800D36337 /* options.html */,
+				9C8877D72BC5E73D003DF91A /* _locales */,
+				9C8877FE2BC5E9AF003DF91A /* icons */,
+				9C8877DB2BC5E73D003DF91A /* manifest.json */,
+				9C8877F32BC5E900003DF91A /* background.js */,
+				9C8877F42BC5E900003DF91A /* options.html */,
+				9C8877F22BC5E900003DF91A /* options.js */,
 			);
-			name = Resources;
-			path = "Clone in VS Code Extension";
-			sourceTree = SOURCE_ROOT;
+			path = Resources;
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9C82220E2AF459B600D36337 /* Clone in VS Code */ = {
+		9C8877B22BC5E73C003DF91A /* Clone in VS Code */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C82223B2AF459B700D36337 /* Build configuration list for PBXNativeTarget "Clone in VS Code" */;
+			buildConfigurationList = 9C8877EF2BC5E73D003DF91A /* Build configuration list for PBXNativeTarget "Clone in VS Code" */;
 			buildPhases = (
-				9C82220B2AF459B600D36337 /* Sources */,
-				9C82220C2AF459B600D36337 /* Frameworks */,
-				9C82220D2AF459B600D36337 /* Resources */,
-				9C82223A2AF459B700D36337 /* Embed Foundation Extensions */,
+				9C8877AF2BC5E73C003DF91A /* Sources */,
+				9C8877B02BC5E73C003DF91A /* Frameworks */,
+				9C8877B12BC5E73C003DF91A /* Resources */,
+				9C8877EE2BC5E73D003DF91A /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9C82222F2AF459B700D36337 /* PBXTargetDependency */,
+				9C8877D22BC5E73D003DF91A /* PBXTargetDependency */,
 			);
 			name = "Clone in VS Code";
 			productName = "Clone in VS Code";
-			productReference = 9C82220F2AF459B600D36337 /* Clone in VS Code.app */;
+			productReference = 9C8877B32BC5E73C003DF91A /* Clone in VS Code.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9C82222B2AF459B700D36337 /* Clone in VS Code Extension */ = {
+		9C8877CE2BC5E73D003DF91A /* Clone in VS Code Extension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C8222372AF459B700D36337 /* Build configuration list for PBXNativeTarget "Clone in VS Code Extension" */;
+			buildConfigurationList = 9C8877EB2BC5E73D003DF91A /* Build configuration list for PBXNativeTarget "Clone in VS Code Extension" */;
 			buildPhases = (
-				9C8222282AF459B700D36337 /* Sources */,
-				9C8222292AF459B700D36337 /* Frameworks */,
-				9C82222A2AF459B700D36337 /* Resources */,
+				9C8877CB2BC5E73D003DF91A /* Sources */,
+				9C8877CC2BC5E73D003DF91A /* Frameworks */,
+				9C8877CD2BC5E73D003DF91A /* Resources */,
 			);
 			buildRules = (
 			);
@@ -194,28 +194,28 @@
 			);
 			name = "Clone in VS Code Extension";
 			productName = "Clone in VS Code Extension";
-			productReference = 9C82222C2AF459B700D36337 /* Clone in VS Code Extension.appex */;
+			productReference = 9C8877CF2BC5E73D003DF91A /* Clone in VS Code Extension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9C8222072AF459B600D36337 /* Project object */ = {
+		9C8877AB2BC5E73C003DF91A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
-				LastUpgradeCheck = 1500;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
 				TargetAttributes = {
-					9C82220E2AF459B600D36337 = {
-						CreatedOnToolsVersion = 15.0.1;
+					9C8877B22BC5E73C003DF91A = {
+						CreatedOnToolsVersion = 15.3;
 					};
-					9C82222B2AF459B700D36337 = {
-						CreatedOnToolsVersion = 15.0.1;
+					9C8877CE2BC5E73D003DF91A = {
+						CreatedOnToolsVersion = 15.3;
 					};
 				};
 			};
-			buildConfigurationList = 9C82220A2AF459B600D36337 /* Build configuration list for PBXProject "Clone in VS Code" */;
+			buildConfigurationList = 9C8877AE2BC5E73C003DF91A /* Build configuration list for PBXProject "Clone in VS Code" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -223,86 +223,87 @@
 				en,
 				Base,
 			);
-			mainGroup = 9C8222062AF459B600D36337;
-			productRefGroup = 9C8222102AF459B600D36337 /* Products */;
+			mainGroup = 9C8877AA2BC5E73C003DF91A;
+			productRefGroup = 9C8877B42BC5E73C003DF91A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9C82220E2AF459B600D36337 /* Clone in VS Code */,
-				9C82222B2AF459B700D36337 /* Clone in VS Code Extension */,
+				9C8877B22BC5E73C003DF91A /* Clone in VS Code */,
+				9C8877CE2BC5E73D003DF91A /* Clone in VS Code Extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		9C82220D2AF459B600D36337 /* Resources */ = {
+		9C8877B12BC5E73C003DF91A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8ABB252B2FAF90003D5BBA /* Icon.png in Resources */,
-				9C8222222AF459B600D36337 /* Main.storyboard in Resources */,
-				9C82221D2AF459B600D36337 /* Script.js in Resources */,
-				9C8222172AF459B600D36337 /* Main.html in Resources */,
-				9C8222242AF459B700D36337 /* Assets.xcassets in Resources */,
-				9C82221B2AF459B600D36337 /* Style.css in Resources */,
+				9C8877BD2BC5E73C003DF91A /* Icon.png in Resources */,
+				9C8877C12BC5E73C003DF91A /* Script.js in Resources */,
+				9C8877BB2BC5E73C003DF91A /* Base in Resources */,
+				9C8877BF2BC5E73C003DF91A /* Style.css in Resources */,
+				9C8877C82BC5E73D003DF91A /* Assets.xcassets in Resources */,
+				9C8877C62BC5E73C003DF91A /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C82222A2AF459B700D36337 /* Resources */ = {
+		9C8877CD2BC5E73D003DF91A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8222472AF459B800D36337 /* manifest.json in Resources */,
-				9C8222462AF459B800D36337 /* icons in Resources */,
-				9C8222482AF459B800D36337 /* options.html in Resources */,
-				9C8222442AF459B800D36337 /* background.js in Resources */,
-				9C8222452AF459B800D36337 /* options.js in Resources */,
+				9C8877F52BC5E900003DF91A /* options.js in Resources */,
+				9C8877DC2BC5E73D003DF91A /* manifest.json in Resources */,
+				9C8877D82BC5E73D003DF91A /* _locales in Resources */,
+				9C8877FF2BC5E9AF003DF91A /* icons in Resources */,
+				9C8877F62BC5E900003DF91A /* background.js in Resources */,
+				9C8877F72BC5E900003DF91A /* options.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C82220B2AF459B600D36337 /* Sources */ = {
+		9C8877AF2BC5E73C003DF91A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C82221F2AF459B600D36337 /* ViewController.swift in Sources */,
-				9C8222132AF459B600D36337 /* AppDelegate.swift in Sources */,
+				9C8877C32BC5E73C003DF91A /* ViewController.swift in Sources */,
+				9C8877B72BC5E73C003DF91A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9C8222282AF459B700D36337 /* Sources */ = {
+		9C8877CB2BC5E73D003DF91A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C8222322AF459B700D36337 /* SafariWebExtensionHandler.swift in Sources */,
+				9C8877D52BC5E73D003DF91A /* SafariWebExtensionHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9C82222F2AF459B700D36337 /* PBXTargetDependency */ = {
+		9C8877D22BC5E73D003DF91A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9C82222B2AF459B700D36337 /* Clone in VS Code Extension */;
-			targetProxy = 9C82222E2AF459B700D36337 /* PBXContainerItemProxy */;
+			target = 9C8877CE2BC5E73D003DF91A /* Clone in VS Code Extension */;
+			targetProxy = 9C8877D12BC5E73D003DF91A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		9C8222152AF459B600D36337 /* Main.html */ = {
+		9C8877B92BC5E73C003DF91A /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C8222162AF459B600D36337 /* Base */,
+				9C8877BA2BC5E73C003DF91A /* Base */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
 		};
-		9C8222202AF459B600D36337 /* Main.storyboard */ = {
+		9C8877C42BC5E73C003DF91A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9C8222212AF459B600D36337 /* Base */,
+				9C8877C52BC5E73C003DF91A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -310,7 +311,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		9C8222352AF459B700D36337 /* Debug */ = {
+		9C8877E92BC5E73D003DF91A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,7 +364,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -373,7 +374,7 @@
 			};
 			name = Debug;
 		};
-		9C8222362AF459B700D36337 /* Release */ = {
+		9C8877EA2BC5E73D003DF91A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,7 +421,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
@@ -428,13 +429,13 @@
 			};
 			name = Release;
 		};
-		9C8222382AF459B700D36337 /* Debug */ = {
+		9C8877EC2BC5E73D003DF91A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code Extension/Clone_in_VS_Code_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Clone in VS Code Extension/Info.plist";
@@ -459,13 +460,13 @@
 			};
 			name = Debug;
 		};
-		9C8222392AF459B700D36337 /* Release */ = {
+		9C8877ED2BC5E73D003DF91A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code Extension/Clone_in_VS_Code_Extension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Clone in VS Code Extension/Info.plist";
@@ -490,7 +491,7 @@
 			};
 			name = Release;
 		};
-		9C82223C2AF459B700D36337 /* Debug */ = {
+		9C8877F02BC5E73D003DF91A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -499,11 +500,10 @@
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code/Clone in VS Code.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
-				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Clone in VS Code/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Clone in VS Code";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -514,7 +514,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -528,7 +528,7 @@
 			};
 			name = Debug;
 		};
-		9C82223D2AF459B700D36337 /* Release */ = {
+		9C8877F12BC5E73D003DF91A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -537,11 +537,10 @@
 				CODE_SIGN_ENTITLEMENTS = "Clone in VS Code/Clone in VS Code.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 11;
-				DEVELOPMENT_TEAM = "";
+				CURRENT_PROJECT_VERSION = 12;
+				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Clone in VS Code/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Clone in VS Code";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -552,7 +551,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
@@ -569,34 +568,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9C82220A2AF459B600D36337 /* Build configuration list for PBXProject "Clone in VS Code" */ = {
+		9C8877AE2BC5E73C003DF91A /* Build configuration list for PBXProject "Clone in VS Code" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C8222352AF459B700D36337 /* Debug */,
-				9C8222362AF459B700D36337 /* Release */,
+				9C8877E92BC5E73D003DF91A /* Debug */,
+				9C8877EA2BC5E73D003DF91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C8222372AF459B700D36337 /* Build configuration list for PBXNativeTarget "Clone in VS Code Extension" */ = {
+		9C8877EB2BC5E73D003DF91A /* Build configuration list for PBXNativeTarget "Clone in VS Code Extension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C8222382AF459B700D36337 /* Debug */,
-				9C8222392AF459B700D36337 /* Release */,
+				9C8877EC2BC5E73D003DF91A /* Debug */,
+				9C8877ED2BC5E73D003DF91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C82223B2AF459B700D36337 /* Build configuration list for PBXNativeTarget "Clone in VS Code" */ = {
+		9C8877EF2BC5E73D003DF91A /* Build configuration list for PBXNativeTarget "Clone in VS Code" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9C82223C2AF459B700D36337 /* Debug */,
-				9C82223D2AF459B700D36337 /* Release */,
+				9C8877F02BC5E73D003DF91A /* Debug */,
+				9C8877F12BC5E73D003DF91A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9C8222072AF459B600D36337 /* Project object */;
+	rootObject = 9C8877AB2BC5E73C003DF91A /* Project object */;
 }
