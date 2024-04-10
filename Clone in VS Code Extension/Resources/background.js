@@ -19,7 +19,7 @@ chrome.action.onClicked.addListener((tab) => {
         }
         if (path[1] !== undefined && path[2] !== undefined) {
           if (items.protocol == "HTTPS") {
-            chrome.tabs.create({
+            chrome.tabs.update({
               url:
                 openApp +
                 "://vscode.git/clone?url=https://" +
@@ -31,7 +31,7 @@ chrome.action.onClicked.addListener((tab) => {
                 ".git",
             });
           } else if (items.protocol == "SSH") {
-            chrome.tabs.create({
+            chrome.tabs.update({
               url:
                 openApp +
                 "://vscode.git/clone?url=git@" +
