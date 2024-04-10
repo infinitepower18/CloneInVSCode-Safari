@@ -506,7 +506,7 @@
 				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "Clone in VS Code/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Clone in VS Code";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
@@ -544,7 +544,7 @@
 				DEVELOPMENT_TEAM = 3W9UA5X43W;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Info.plist;
+				INFOPLIST_FILE = "Clone in VS Code/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Clone in VS Code";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
