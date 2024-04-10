@@ -9,6 +9,6 @@ This is the Safari port of the [Clone in VS Code](https://github.com/infinitepow
 
 Requires Safari 15.4 or later.
 
-[Privacy Policy](https://ahnafmahmud.com/apps/CloneInVSCode/PrivacyPolicy.html)
+[Privacy Policy](https://ahnafmahmud.com/apps/CloneInVSCode/SafariPrivacyPolicy.html)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F1K06VY)
