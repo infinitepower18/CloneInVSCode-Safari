@@ -23,6 +23,9 @@
         color-scheme: dark;
       }
     }
+    #url-container {
+        display: none;
+    }
     </style>
   </head>
   <body>
@@ -41,7 +44,14 @@
         <option value="VS Code Insiders">VS Code Insiders</option>
         <option value="VSCodium">VSCodium</option>
         <option value="VSCodium Insiders">VSCodium Insiders</option>
+        <option value="Cursor">Cursor</option>
+        <option value="Windsurf">Windsurf</option>
+        <option value="Other">Other</option>
       </select>
+    </div>
+    <div id="url-container">
+      URL Scheme:
+      <input type="text" id="url-scheme" />
     </div>
     <div>
       <button id="save">Save</button>
