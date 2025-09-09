@@ -17,23 +17,10 @@
 		9C4799B72E70E63F00E6EE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799B52E70E63F00E6EE4C /* Main.storyboard */; };
 		9C4799C02E70E64000E6EE4C /* Clone in VS Code Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C4799BF2E70E64000E6EE4C /* Clone in VS Code Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9C4799C52E70E64000E6EE4C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4799C42E70E64000E6EE4C /* SafariWebExtensionHandler.swift */; };
-		9C4799D52E70E64000E6EE4C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799D12E70E64000E6EE4C /* background.js */; };
-		9C4799D62E70E64000E6EE4C /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799D22E70E64000E6EE4C /* options.js */; };
-		9C4799D72E70E64000E6EE4C /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799D32E70E64000E6EE4C /* manifest.json */; };
-		9C4799D82E70E64000E6EE4C /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799D42E70E64000E6EE4C /* options.html */; };
-		9CFDADE92E70F0760059C1F3 /* icon-256.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADE02E70F0760059C1F3 /* icon-256.png */; };
-		9CFDADEA2E70F0760059C1F3 /* toolbar-icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADE62E70F0760059C1F3 /* toolbar-icon-48.png */; };
-		9CFDADEB2E70F0760059C1F3 /* icon-48.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADDC2E70F0760059C1F3 /* icon-48.png */; };
-		9CFDADEC2E70F0760059C1F3 /* toolbar-icon-16.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADE22E70F0760059C1F3 /* toolbar-icon-16.png */; };
-		9CFDADED2E70F0760059C1F3 /* toolbar-icon-38.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADE52E70F0760059C1F3 /* toolbar-icon-38.png */; };
-		9CFDADEE2E70F0760059C1F3 /* icon-96.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADDE2E70F0760059C1F3 /* icon-96.png */; };
-		9CFDADEF2E70F0760059C1F3 /* messages.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADD92E70F0760059C1F3 /* messages.json */; };
-		9CFDADF02E70F0760059C1F3 /* toolbar-icon-19.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADE32E70F0760059C1F3 /* toolbar-icon-19.png */; };
-		9CFDADF12E70F0760059C1F3 /* icon-512.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADE12E70F0760059C1F3 /* icon-512.png */; };
-		9CFDADF22E70F0760059C1F3 /* toolbar-icon-32.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADE42E70F0760059C1F3 /* toolbar-icon-32.png */; };
-		9CFDADF32E70F0760059C1F3 /* icon-128.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADDF2E70F0760059C1F3 /* icon-128.png */; };
-		9CFDADF42E70F0760059C1F3 /* toolbar-icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADE72E70F0760059C1F3 /* toolbar-icon-72.png */; };
-		9CFDADF52E70F0760059C1F3 /* icon-64.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CFDADDD2E70F0760059C1F3 /* icon-64.png */; };
+		9CAA2C932E70F422001AF98A /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9CAA2C7F2E70F422001AF98A /* background.js */; };
+		9CAA2C952E70F422001AF98A /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CAA2C8E2E70F422001AF98A /* options.html */; };
+		9CAA2C962E70F422001AF98A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CAA2C8D2E70F422001AF98A /* manifest.json */; };
+		9CAA2C9E2E70F422001AF98A /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 9CAA2C8F2E70F422001AF98A /* options.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,24 +61,24 @@
 		9C4799BF2E70E64000E6EE4C /* Clone in VS Code Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Clone in VS Code Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4799C42E70E64000E6EE4C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
 		9C4799C62E70E64000E6EE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9C4799D12E70E64000E6EE4C /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = background.js; path = Resources/background.js; sourceTree = "<group>"; };
-		9C4799D22E70E64000E6EE4C /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = options.js; path = Resources/options.js; sourceTree = "<group>"; };
-		9C4799D32E70E64000E6EE4C /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = Resources/manifest.json; sourceTree = "<group>"; };
-		9C4799D42E70E64000E6EE4C /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = options.html; path = Resources/options.html; sourceTree = "<group>"; };
-		9CFDADD92E70F0760059C1F3 /* messages.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = messages.json; sourceTree = "<group>"; };
-		9CFDADDC2E70F0760059C1F3 /* icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-48.png"; sourceTree = "<group>"; };
-		9CFDADDD2E70F0760059C1F3 /* icon-64.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-64.png"; sourceTree = "<group>"; };
-		9CFDADDE2E70F0760059C1F3 /* icon-96.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-96.png"; sourceTree = "<group>"; };
-		9CFDADDF2E70F0760059C1F3 /* icon-128.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-128.png"; sourceTree = "<group>"; };
-		9CFDADE02E70F0760059C1F3 /* icon-256.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-256.png"; sourceTree = "<group>"; };
-		9CFDADE12E70F0760059C1F3 /* icon-512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-512.png"; sourceTree = "<group>"; };
-		9CFDADE22E70F0760059C1F3 /* toolbar-icon-16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-icon-16.png"; sourceTree = "<group>"; };
-		9CFDADE32E70F0760059C1F3 /* toolbar-icon-19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-icon-19.png"; sourceTree = "<group>"; };
-		9CFDADE42E70F0760059C1F3 /* toolbar-icon-32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-icon-32.png"; sourceTree = "<group>"; };
-		9CFDADE52E70F0760059C1F3 /* toolbar-icon-38.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-icon-38.png"; sourceTree = "<group>"; };
-		9CFDADE62E70F0760059C1F3 /* toolbar-icon-48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-icon-48.png"; sourceTree = "<group>"; };
-		9CFDADE72E70F0760059C1F3 /* toolbar-icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toolbar-icon-72.png"; sourceTree = "<group>"; };
+		9CAA2C7F2E70F422001AF98A /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		9CAA2C8D2E70F422001AF98A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		9CAA2C8E2E70F422001AF98A /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
+		9CAA2C8F2E70F422001AF98A /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = options.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		9CAA2C7E2E70F422001AF98A /* _locales */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = _locales;
+			sourceTree = "<group>";
+		};
+		9CAA2C8C2E70F422001AF98A /* images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9C4799A12E70E63F00E6EE4C /* Frameworks */ = {
@@ -156,62 +143,24 @@
 		9C4799C32E70E64000E6EE4C /* Clone in VS Code Extension */ = {
 			isa = PBXGroup;
 			children = (
-				9C4799D02E70E64000E6EE4C /* Resources */,
+				9CAA2C7B2E70F415001AF98A /* Resources */,
 				9C4799C42E70E64000E6EE4C /* SafariWebExtensionHandler.swift */,
 				9C4799C62E70E64000E6EE4C /* Info.plist */,
 			);
 			path = "Clone in VS Code Extension";
 			sourceTree = "<group>";
 		};
-		9C4799D02E70E64000E6EE4C /* Resources */ = {
+		9CAA2C7B2E70F415001AF98A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9CFDADDB2E70F0760059C1F3 /* _locales */,
-				9CFDADE82E70F0760059C1F3 /* images */,
-				9C4799D12E70E64000E6EE4C /* background.js */,
-				9C4799D22E70E64000E6EE4C /* options.js */,
-				9C4799D32E70E64000E6EE4C /* manifest.json */,
-				9C4799D42E70E64000E6EE4C /* options.html */,
+				9CAA2C7E2E70F422001AF98A /* _locales */,
+				9CAA2C7F2E70F422001AF98A /* background.js */,
+				9CAA2C8C2E70F422001AF98A /* images */,
+				9CAA2C8D2E70F422001AF98A /* manifest.json */,
+				9CAA2C8E2E70F422001AF98A /* options.html */,
+				9CAA2C8F2E70F422001AF98A /* options.js */,
 			);
-			name = Resources;
-			path = "Clone in VS Code Extension";
-			sourceTree = SOURCE_ROOT;
-		};
-		9CFDADDA2E70F0760059C1F3 /* en */ = {
-			isa = PBXGroup;
-			children = (
-				9CFDADD92E70F0760059C1F3 /* messages.json */,
-			);
-			path = en;
-			sourceTree = "<group>";
-		};
-		9CFDADDB2E70F0760059C1F3 /* _locales */ = {
-			isa = PBXGroup;
-			children = (
-				9CFDADDA2E70F0760059C1F3 /* en */,
-			);
-			name = _locales;
-			path = Resources/_locales;
-			sourceTree = "<group>";
-		};
-		9CFDADE82E70F0760059C1F3 /* images */ = {
-			isa = PBXGroup;
-			children = (
-				9CFDADDC2E70F0760059C1F3 /* icon-48.png */,
-				9CFDADDD2E70F0760059C1F3 /* icon-64.png */,
-				9CFDADDE2E70F0760059C1F3 /* icon-96.png */,
-				9CFDADDF2E70F0760059C1F3 /* icon-128.png */,
-				9CFDADE02E70F0760059C1F3 /* icon-256.png */,
-				9CFDADE12E70F0760059C1F3 /* icon-512.png */,
-				9CFDADE22E70F0760059C1F3 /* toolbar-icon-16.png */,
-				9CFDADE32E70F0760059C1F3 /* toolbar-icon-19.png */,
-				9CFDADE42E70F0760059C1F3 /* toolbar-icon-32.png */,
-				9CFDADE52E70F0760059C1F3 /* toolbar-icon-38.png */,
-				9CFDADE62E70F0760059C1F3 /* toolbar-icon-48.png */,
-				9CFDADE72E70F0760059C1F3 /* toolbar-icon-72.png */,
-			);
-			name = images;
-			path = Resources/images;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +198,10 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				9CAA2C7E2E70F422001AF98A /* _locales */,
+				9CAA2C8C2E70F422001AF98A /* images */,
 			);
 			name = "Clone in VS Code Extension";
 			packageProductDependencies = (
@@ -313,23 +266,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9CFDADE92E70F0760059C1F3 /* icon-256.png in Resources */,
-				9CFDADEA2E70F0760059C1F3 /* toolbar-icon-48.png in Resources */,
-				9CFDADEB2E70F0760059C1F3 /* icon-48.png in Resources */,
-				9CFDADEC2E70F0760059C1F3 /* toolbar-icon-16.png in Resources */,
-				9CFDADED2E70F0760059C1F3 /* toolbar-icon-38.png in Resources */,
-				9CFDADEE2E70F0760059C1F3 /* icon-96.png in Resources */,
-				9CFDADEF2E70F0760059C1F3 /* messages.json in Resources */,
-				9CFDADF02E70F0760059C1F3 /* toolbar-icon-19.png in Resources */,
-				9CFDADF12E70F0760059C1F3 /* icon-512.png in Resources */,
-				9CFDADF22E70F0760059C1F3 /* toolbar-icon-32.png in Resources */,
-				9CFDADF32E70F0760059C1F3 /* icon-128.png in Resources */,
-				9CFDADF42E70F0760059C1F3 /* toolbar-icon-72.png in Resources */,
-				9CFDADF52E70F0760059C1F3 /* icon-64.png in Resources */,
-				9C4799D52E70E64000E6EE4C /* background.js in Resources */,
-				9C4799D72E70E64000E6EE4C /* manifest.json in Resources */,
-				9C4799D62E70E64000E6EE4C /* options.js in Resources */,
-				9C4799D82E70E64000E6EE4C /* options.html in Resources */,
+				9CAA2C932E70F422001AF98A /* background.js in Resources */,
+				9CAA2C952E70F422001AF98A /* options.html in Resources */,
+				9CAA2C962E70F422001AF98A /* manifest.json in Resources */,
+				9CAA2C9E2E70F422001AF98A /* options.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
