@@ -15,7 +15,6 @@
 		9C4799B22E70E63F00E6EE4C /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799B12E70E63F00E6EE4C /* Script.js */; };
 		9C4799B42E70E63F00E6EE4C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4799B32E70E63F00E6EE4C /* ViewController.swift */; };
 		9C4799B72E70E63F00E6EE4C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799B52E70E63F00E6EE4C /* Main.storyboard */; };
-		9C4799B92E70E64000E6EE4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799B82E70E64000E6EE4C /* Assets.xcassets */; };
 		9C4799C02E70E64000E6EE4C /* Clone in VS Code Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9C4799BF2E70E64000E6EE4C /* Clone in VS Code Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		9C4799C52E70E64000E6EE4C /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4799C42E70E64000E6EE4C /* SafariWebExtensionHandler.swift */; };
 		9C4799D52E70E64000E6EE4C /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799D12E70E64000E6EE4C /* background.js */; };
@@ -58,7 +57,6 @@
 		9C4799B12E70E63F00E6EE4C /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		9C4799B32E70E63F00E6EE4C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C4799B62E70E63F00E6EE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9C4799B82E70E64000E6EE4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C4799BA2E70E64000E6EE4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C4799BF2E70E64000E6EE4C /* Clone in VS Code Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Clone in VS Code Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4799C42E70E64000E6EE4C /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 				9C4799B32E70E63F00E6EE4C /* ViewController.swift */,
 				9C4799B52E70E63F00E6EE4C /* Main.storyboard */,
 				9C0FAE1C2E70EC7200C17993 /* AppIcon.icon */,
-				9C4799B82E70E64000E6EE4C /* Assets.xcassets */,
 				9C4799BA2E70E64000E6EE4C /* Info.plist */,
 				9C4799A92E70E63F00E6EE4C /* Resources */,
 			);
@@ -243,7 +240,6 @@
 				9C4799B22E70E63F00E6EE4C /* Script.js in Resources */,
 				9C0FAE1D2E70EC7200C17993 /* AppIcon.icon in Resources */,
 				9C4799AC2E70E63F00E6EE4C /* Main.html in Resources */,
-				9C4799B92E70E64000E6EE4C /* Assets.xcassets in Resources */,
 				9C4799B02E70E63F00E6EE4C /* Style.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
