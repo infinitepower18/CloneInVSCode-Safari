@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C0FAE1D2E70EC7200C17993 /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 9C0FAE1C2E70EC7200C17993 /* AppIcon.icon */; };
 		9C4799A82E70E63F00E6EE4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4799A72E70E63F00E6EE4C /* AppDelegate.swift */; };
 		9C4799AC2E70E63F00E6EE4C /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799AA2E70E63F00E6EE4C /* Main.html */; };
 		9C4799AE2E70E63F00E6EE4C /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C4799AD2E70E63F00E6EE4C /* Icon.png */; };
@@ -48,6 +49,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		9C0FAE1C2E70EC7200C17993 /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
 		9C4799A42E70E63F00E6EE4C /* Clone in VS Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clone in VS Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4799A72E70E63F00E6EE4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C4799AB2E70E63F00E6EE4C /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				9C4799A72E70E63F00E6EE4C /* AppDelegate.swift */,
 				9C4799B32E70E63F00E6EE4C /* ViewController.swift */,
 				9C4799B52E70E63F00E6EE4C /* Main.storyboard */,
+				9C0FAE1C2E70EC7200C17993 /* AppIcon.icon */,
 				9C4799B82E70E64000E6EE4C /* Assets.xcassets */,
 				9C4799BA2E70E64000E6EE4C /* Info.plist */,
 				9C4799A92E70E63F00E6EE4C /* Resources */,
@@ -238,6 +241,7 @@
 				9C4799AE2E70E63F00E6EE4C /* Icon.png in Resources */,
 				9C4799B72E70E63F00E6EE4C /* Main.storyboard in Resources */,
 				9C4799B22E70E63F00E6EE4C /* Script.js in Resources */,
+				9C0FAE1D2E70EC7200C17993 /* AppIcon.icon in Resources */,
 				9C4799AC2E70E63F00E6EE4C /* Main.html in Resources */,
 				9C4799B92E70E64000E6EE4C /* Assets.xcassets in Resources */,
 				9C4799B02E70E63F00E6EE4C /* Style.css in Resources */,
