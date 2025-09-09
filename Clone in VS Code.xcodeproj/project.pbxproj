@@ -68,12 +68,12 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		9CAA2C7E2E70F422001AF98A /* _locales */ = {
+		9CAA2D142E70F64A001AF98A /* _locales */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = _locales;
 			sourceTree = "<group>";
 		};
-		9CAA2C8C2E70F422001AF98A /* images */ = {
+		9CAA2D212E70F64A001AF98A /* images */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = images;
 			sourceTree = "<group>";
@@ -153,9 +153,9 @@
 		9CAA2C7B2E70F415001AF98A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9CAA2C7E2E70F422001AF98A /* _locales */,
+				9CAA2D142E70F64A001AF98A /* _locales */,
+				9CAA2D212E70F64A001AF98A /* images */,
 				9CAA2C7F2E70F422001AF98A /* background.js */,
-				9CAA2C8C2E70F422001AF98A /* images */,
 				9CAA2C8D2E70F422001AF98A /* manifest.json */,
 				9CAA2C8E2E70F422001AF98A /* options.html */,
 				9CAA2C8F2E70F422001AF98A /* options.js */,
@@ -200,8 +200,8 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				9CAA2C7E2E70F422001AF98A /* _locales */,
-				9CAA2C8C2E70F422001AF98A /* images */,
+				9CAA2D142E70F64A001AF98A /* _locales */,
+				9CAA2D212E70F64A001AF98A /* images */,
 			);
 			name = "Clone in VS Code Extension";
 			packageProductDependencies = (
