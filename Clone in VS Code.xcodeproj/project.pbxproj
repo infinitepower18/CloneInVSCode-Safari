@@ -21,6 +21,8 @@
 		9CAA2C952E70F422001AF98A /* options.html in Resources */ = {isa = PBXBuildFile; fileRef = 9CAA2C8E2E70F422001AF98A /* options.html */; };
 		9CAA2C962E70F422001AF98A /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 9CAA2C8D2E70F422001AF98A /* manifest.json */; };
 		9CAA2C9E2E70F422001AF98A /* options.js in Resources */ = {isa = PBXBuildFile; fileRef = 9CAA2C8F2E70F422001AF98A /* options.js */; };
+		9CAA2DA02E70F80D001AF98A /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 9CAA2D9F2E70F80A001AF98A /* _locales */; };
+		9CAA2DA22E70F81B001AF98A /* images in Resources */ = {isa = PBXBuildFile; fileRef = 9CAA2DA12E70F817001AF98A /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,20 +67,9 @@
 		9CAA2C8D2E70F422001AF98A /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		9CAA2C8E2E70F422001AF98A /* options.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = options.html; sourceTree = "<group>"; };
 		9CAA2C8F2E70F422001AF98A /* options.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = options.js; sourceTree = "<group>"; };
+		9CAA2D9F2E70F80A001AF98A /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		9CAA2DA12E70F817001AF98A /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		9CAA2D142E70F64A001AF98A /* _locales */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = _locales;
-			sourceTree = "<group>";
-		};
-		9CAA2D212E70F64A001AF98A /* images */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = images;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		9C4799A12E70E63F00E6EE4C /* Frameworks */ = {
@@ -153,8 +144,8 @@
 		9CAA2C7B2E70F415001AF98A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9CAA2D142E70F64A001AF98A /* _locales */,
-				9CAA2D212E70F64A001AF98A /* images */,
+				9CAA2D9F2E70F80A001AF98A /* _locales */,
+				9CAA2DA12E70F817001AF98A /* images */,
 				9CAA2C7F2E70F422001AF98A /* background.js */,
 				9CAA2C8D2E70F422001AF98A /* manifest.json */,
 				9CAA2C8E2E70F422001AF98A /* options.html */,
@@ -198,10 +189,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				9CAA2D142E70F64A001AF98A /* _locales */,
-				9CAA2D212E70F64A001AF98A /* images */,
 			);
 			name = "Clone in VS Code Extension";
 			packageProductDependencies = (
@@ -266,9 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CAA2DA22E70F81B001AF98A /* images in Resources */,
 				9CAA2C932E70F422001AF98A /* background.js in Resources */,
 				9CAA2C952E70F422001AF98A /* options.html in Resources */,
 				9CAA2C962E70F422001AF98A /* manifest.json in Resources */,
+				9CAA2DA02E70F80D001AF98A /* _locales in Resources */,
 				9CAA2C9E2E70F422001AF98A /* options.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
