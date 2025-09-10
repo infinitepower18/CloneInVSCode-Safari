@@ -2,7 +2,7 @@
 //  SafariWebExtensionHandler.swift
 //  Clone in VS Code Extension
 //
-//  Created by Ahnaf Mahmud on 09/04/2024.
+//  Created by Ahnaf Mahmud on 09/09/2025.
 //
 
 import SafariServices
@@ -21,7 +21,7 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         }
 
         let message: Any?
-        if #available(iOS 17.0, macOS 14.0, *) {
+        if #available(iOS 15.0, macOS 11.0, *) {
             message = request?.userInfo?[SFExtensionMessageKey]
         } else {
             message = request?.userInfo?["message"]
@@ -30,7 +30,11 @@ class SafariWebExtensionHandler: NSObject, NSExtensionRequestHandling {
         os_log(.default, "Received message from browser.runtime.sendNativeMessage: %@ (profile: %@)", String(describing: message), profile?.uuidString ?? "none")
 
         let response = NSExtensionItem()
-        response.userInfo = [ SFExtensionMessageKey: [ "echo": message ] ]
+        if #available(iOS 15.0, macOS 11.0, *) {
+            response.userInfo = [ SFExtensionMessageKey: [ "echo": message ] ]
+        } else {
+            response.userInfo = [ "message": [ "echo": message ] ]
+        }
 
         context.completeRequest(returningItems: [ response ], completionHandler: nil)
     }
